@@ -1,0 +1,15 @@
+{
+	"name": "MiFabrica",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "mexicocentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0d71aa32-c6bb-4c01-8bfd-a2e6a0113240",
+		"tenantId": "b24f0388-e61b-43e0-b9e7-baa5b0d5121e"
+	}
+}
