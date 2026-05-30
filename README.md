@@ -1,7 +1,7 @@
-# sql-data-warehouse-project
-Welcome to the ##Data warehouse and analytics project##
+# Azure datafactory and databricks project
+Welcome to the ##Azure data factory project##
 
-This project demonstrates a comprehensive data warehousing and analytics solution, from bulding a data warehouse to generating actionable insights. Designed as a portafolio project, it highlights industry best practices in data engineering and analytics.
+This project demonstrates a comprehensive data warehousing and analytics solution, from bulding pipelines in datafactory, cleaning the data in databricks to generating reports in power BI. Designed as a complete Azure project that includes logic apps and monitoring.
 
 
 
@@ -10,7 +10,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## 📖 Project Overview
 This project involves:
 
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+1. **Data Architecture**: Designing a Modern Data solution Using data factory connected to Github and consuming files using pipelines.
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse. (only in SQL)
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries. (only in SQL)
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
