@@ -20,8 +20,23 @@ This project involves:
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
+- **Data Sources**: Import data files with data factory pipelines
+<img width="571" height="302" alt="image" src="https://github.com/user-attachments/assets/90d0adbb-5651-469b-b062-96ed81926b03" />
+
+- the activities notify to logic apps in case of success or fail 
+
+<img width="1098" height="435" alt="image" src="https://github.com/user-attachments/assets/e7ab77c9-5f4d-47c5-a6da-5d926e6e0607" />
+
+- **Data layers**: an azure data lake Gen2 with 2 layers, a landing container "rawdata" and the transformed container
+
+<img width="1034" height="323" alt="image" src="https://github.com/user-attachments/assets/124d8378-747a-473f-a1a6-3ca662b717bf" />
+
+- **Integration**: deployment of an azure databricks connector to mount the lakeGen2 in order to make transformations with notebooks.
+
+<img width="517" height="181" alt="image" src="https://github.com/user-attachments/assets/6b65de87-33ed-41f2-95a6-ac064c065aa6" />
+
+- **serving layer**: a synapse serverless pool to get the transformed data .
+
+  <img width="996" height="413" alt="image" src="https://github.com/user-attachments/assets/3f53e01f-2bdf-493e-b93a-4f34f98528d1" />
+
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
