@@ -20,7 +20,7 @@ This project involves:
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
-- **Data Sources**: Import data files with data factory pipelines
+- **Data Sources**: Import data files from my local computer using a selfhostedIntegration runtime  and data factory pipelines
 <img width="571" height="302" alt="image" src="https://github.com/user-attachments/assets/90d0adbb-5651-469b-b062-96ed81926b03" />
 
 - the activities notify to logic apps in case of success or fail 
@@ -39,4 +39,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
   <img width="996" height="413" alt="image" src="https://github.com/user-attachments/assets/3f53e01f-2bdf-493e-b93a-4f34f98528d1" />
 
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+- **Presentation /report layer**: Connect power BI and synapse to create the final report
+
+<img width="1208" height="508" alt="image" src="https://github.com/user-attachments/assets/7bd41cc0-2989-4e74-abd1-9b1979477ed1" />
+
